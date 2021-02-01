@@ -1,0 +1,12 @@
+.navigation {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navigation-menu {
+	margin-top: .5rem;
+}
+
+.item {
+	padding: 1rem;
+}
