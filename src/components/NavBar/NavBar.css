@@ -9,4 +9,8 @@
 
 .item {
 	padding: 1rem;
+	font-family: 'Inter', sans-serif;
+	font-size: 2rem;
+	font-weight: 900;
+	text-decoration: none;
 }
