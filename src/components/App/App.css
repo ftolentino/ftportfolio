@@ -9,8 +9,19 @@ html,
 	height: 100%;
 }
 
-h1 {
-	text-align: center;
+.navigation {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navigation-menu {
+	margin-top: .5rem;
+}
+
+.item {
+	padding: 1rem;
 	font-family: 'Inter', sans-serif;
-	font-size: 7rem;
+	font-size: 1.3rem;
+	font-weight: 900;
+	text-decoration: none;
 }

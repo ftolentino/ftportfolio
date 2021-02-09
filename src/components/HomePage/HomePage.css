@@ -1,0 +1,12 @@
+.homepage {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-size: 6.5rem;
+}
