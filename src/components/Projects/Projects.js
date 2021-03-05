@@ -1,7 +1,8 @@
 import React from 'react';
 import './Projects.css';
 
-function Projects(props) {
+
+const Projects = (props) => {
   return (
     <div className='projects'>
       <h2>Project 1</h2>
