@@ -6,11 +6,11 @@ import App from '../src/components/App/App';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  
-    <BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename="/ftportfolio">
       <App />
-    </BrowserRouter>,
-    
+    </BrowserRouter>
+  </React.StrictMode>, 
   document.getElementById('root')
 );
 
