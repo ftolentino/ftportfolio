@@ -1,6 +1,7 @@
 .name {
 	display: flex;
 	justify-content: center;
+	justify-content: space-between;
 	font-family: 'Inter', sans-serif;
 	font-size: 6.5rem;
 }

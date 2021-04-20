@@ -6,7 +6,8 @@ import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
+  FaGithub
 } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
 
@@ -40,38 +41,51 @@ function Footer() {
           </div>
           <small className='website-rights'>FILMER TOLENTINO © 2021</small>
           <div className='social-icons'>
-            <Link
+            <a
               className='social-icon-link'
-              to='/'
+              href="https://www.facebook.com/filmer.tolentino"
+              rel="noreferrer"
               target='_blank'
               aria-label='Facebook'
             >
               <FaFacebook />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link'
-              to='/'
+              href="https://www.instagram.com/filmerraw/"
+              rel="noreferrer"
               target='_blank'
               aria-label='Instagram'
             >
               <FaInstagram />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link'
-              to='/'
+              href="https://twitter.com/filmerTolentino"
+              rel="noreferrer"
               target='_blank'
               aria-label='Twitter'
             >
               <FaTwitter />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link'
-              to='/'
+              href="https://www.linkedin.com/in/ftolentino/"
+              rel="noreferrer"
               target='_blank'
               aria-label='LinkedIn'
             >
               <FaLinkedin />
-            </Link>
+            </a>
+            <a 
+              className='social-icon-link'
+              href="https://github.com/ftolentino" 
+              rel="noreferrer" 
+              target='_blank'
+              aria-label='Github'
+            >
+              <FaGithub />
+            </a>
           </div>
         </div>
       </section>
