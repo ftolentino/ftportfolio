@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 import {
   FaFacebook,
@@ -11,26 +10,10 @@ import {
 } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
 
-function Footer() {
+const Footer = () => {
+
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Interested in working together? Let's connect!
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Contact</Button>
-          </form>
-        </div>
-      </section>
-      
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
