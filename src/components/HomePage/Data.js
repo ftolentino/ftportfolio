@@ -1,25 +1,39 @@
-export const homeObjOne = {
+export const homeObjMain = {
 	lightBg: false,
 	lightText: true,
 	lightTextDesc: true,
-	topLine: 'Exclusive Access',
-	headline: 'Unlimited Transactions with zero fees',
-	description: 'Get access to exclusive diamond card that allows you to send unlimited transactions without any fees',
-	buttonLabel: 'Get Started',
+	topLine: 'Frontend Developer',
+	headline: 'Filmer Tolentino',
+	description: 'I strive to build responsive and visually aesthetic web applications.',
+	buttonLabel: 'Contact Me',
 	imgStart: '',
-	img: 'images/svg-1.svg',
-	alt: 'Credit Card'
+	img: 'images/FTheadshot1.png',
+	alt: 'Headshot'
+};
+
+export const homeObjOne = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Project 1',
+  headline: 'Web App Title',
+  description:
+    'Web App description goes here',
+  buttonLabel: 'Check it out',
+  imgStart: '',
+  img: 'images/svg-5.svg',
+  alt: 'Vault'
 };
 
 export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  topLine: 'Project 2',
+  headline: 'Web App Title',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
+    'Web App description goes here',
+  buttonLabel: 'Check it out',
   imgStart: '',
   img: 'images/svg-5.svg',
   alt: 'Vault'
@@ -29,11 +43,11 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'EASY SETUP',
-  headline: 'Super fast and simple onboarding process',
+  topLine: 'Project 3',
+  headline: 'Web App Title',
   description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
+    "Web App description goes here",
+  buttonLabel: 'Check it out',
   imgStart: '',
   img: 'images/svg-7.svg',
   alt: 'Vault'
@@ -43,11 +57,11 @@ export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'DATA ANALYTICS',
-  headline: 'Every transaction is stored on our secure cloud database',
+  topLine: 'Project 4',
+  headline: 'Web App Title',
   description:
-    'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
+    'Web App description goes here',
+  buttonLabel: 'Check it out',
   imgStart: '',
   img: 'images/svg-8.svg',
   alt: 'Vault'

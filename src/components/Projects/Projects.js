@@ -1,15 +1,16 @@
 import React from 'react';
-import './Projects.css';
+import HeroSection from '../HeroSection/HeroSection';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from '../HomePage/Data';
 
 
-const Projects = (props) => {
+const Projects = () => {
   return (
-    <div className='projects'>
-      <h2>Project 1</h2>
-      <h2>Project 2</h2>
-      <h2>Project 3</h2>
-      <h2>Project 4</h2>
-    </div>
+    <>
+      <HeroSection {...homeObjOne} />
+      <HeroSection {...homeObjTwo} />
+      <HeroSection {...homeObjThree} />
+      <HeroSection {...homeObjFour} />
+    </>
   )
 }
 
