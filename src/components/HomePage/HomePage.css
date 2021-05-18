@@ -1,0 +1,10 @@
+.homepage {
+	background-color: #1c2237;
+	max-height: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .homepage {
+    height: 100vh;
+  }
+}
