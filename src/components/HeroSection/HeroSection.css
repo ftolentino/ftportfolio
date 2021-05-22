@@ -65,11 +65,11 @@
 }
 
 .home__hero-img-wrapper {
-	max-width: 55px;
+	max-width: 555px;
 }
 
 .home__hero-img {
-	max-width: 95%;
+	max-width: 100%;
 	padding-right: 0;
 	margin: 0 0 0 10px;
 }

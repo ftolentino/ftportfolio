@@ -12,16 +12,16 @@ export const homeObjMain = {
 };
 
 export const homeObjOne = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'Project 1',
   headline: 'Web App Title',
   description:
     'Web App description goes here',
   buttonLabel: 'Check it out',
   imgStart: '',
-  img: 'images/svg-5.svg',
+  img: 'images/svg-1.svg',
   alt: 'Vault'
 };
 
