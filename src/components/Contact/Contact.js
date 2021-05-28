@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.css';
 
 import { Button } from '../Button/Button';
@@ -6,6 +6,9 @@ import emailjs from 'emailjs-com';
 
 
 const Contact = () => {
+  const [click, setClick] = useState(true);
+
+  const handleClick = () => setClick(!click);
   
   const sendEmail = (e) => {
     e.preventDefault();
@@ -36,7 +39,7 @@ const Contact = () => {
               placeholder='Your Email'
             />
             <textarea className='contact-input' name="message" placeholder='Message'/>
-            <Button buttonStyle='btn--outline'>Submit</Button>
+            <Button buttonStyle='btn--outline' onClick={handleClick}>{click ? 'Submit' : 'Sent'}</Button>
           </form>
         </div>
       </section>
