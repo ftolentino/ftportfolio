@@ -7,6 +7,7 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [click, setClick] = useState(true);
+  // const [disable, setDisable] = useState(false);
 
   const handleClick = () => setClick(!click);
   
@@ -20,6 +21,7 @@ const Contact = () => {
           console.log(error.text);
       });
       e.target.reset();
+      alert('Thanks! I will be in touch!');
   }
 
   return (
@@ -39,7 +41,7 @@ const Contact = () => {
               placeholder='Your Email'
             />
             <textarea className='contact-input' name="message" placeholder='Message'/>
-            <Button buttonStyle='btn--outline' onClick={handleClick}>{click ? 'Submit' : 'Sent'}</Button>
+            <Button buttonStyle='btn--outline' onClick={handleClick}>Submit</Button>
           </form>
         </div>
       </section>
