@@ -7,7 +7,6 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [click, setClick] = useState(true);
-  // const [disable, setDisable] = useState(false);
 
   const handleClick = () => setClick(!click);
   
@@ -32,15 +31,16 @@ const Contact = () => {
         </p>
         <div className='input-areas'>
           <form className='contact-form' onSubmit={sendEmail}>
-            <input className='contact-input' type="text" name="subject" placeholder= 'Subject' />
-            <input className='contact-input' type="text" name="name" placeholder= 'Name' />
+            <input className='contact-input' type="text" name="subject" placeholder= 'Subject' required />
+            <input className='contact-input' type="text" name="name" placeholder= 'Name' required />
             <input
               className='contact-input'
               name='email'
               type='email'
               placeholder='Your Email'
+              required
             />
-            <textarea className='contact-input' name="message" placeholder='Message'/>
+            <textarea className='contact-input' name="message" placeholder='Message' required/>
             <Button buttonStyle='btn--outline' onClick={handleClick}>Submit</Button>
           </form>
         </div>
