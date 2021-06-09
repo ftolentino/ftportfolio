@@ -2,6 +2,7 @@ export const homeObjMain = {
 	lightBg: false,
 	lightText: true,
 	lightTextDesc: true,
+  shadow: true,
 	topLine: 'Frontend Developer',
 	headline: 'Filmer Tolentino',
 	description: 'I strive to build responsive and visually aesthetic web applications.',

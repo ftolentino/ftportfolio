@@ -74,6 +74,13 @@
 	margin: 0 0 0 10px;
 }
 
+.home__hero-img-shadow {
+	max-width: 100%;
+	padding-right: 0;
+	margin: 0 0 0 10px;
+	box-shadow: 0 8px 6px -6px black;
+}
+
 .img {
 	border: 0;
 	max-width: 100%;
@@ -86,6 +93,15 @@
 		padding-right: 30px;
 		padding-left: 30px;
 	}
+
+	.home__hero-img {
+		margin: 0;
+	}
+
+	.home__hero-img-shadow {
+		margin: 0;
+	}
+	
 }
 
 @media screen and (max-width: 768px) {

@@ -3,7 +3,7 @@ import './HeroSection.css';
 import {Button} from '../Button/Button';
 import {Link} from 'react-router-dom';
 
-const HeroSection = ({lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, img, alt}) => {
+const HeroSection = ({lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, shadow, img, alt}) => {
   return (
     <>
       <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
@@ -21,7 +21,7 @@ const HeroSection = ({lightBg, topLine, lightText, lightTextDesc, headline, desc
             </div>
             <div className='col'>
               <div className='home__hero-img-wrapper'>
-                <img src={img} alt={alt} className="home__hero-img" />
+                <img src={img} alt={alt} className={shadow ? 'home__hero-img-shadow' : 'home__hero-img'} />
               </div>
             </div>
           </div>
