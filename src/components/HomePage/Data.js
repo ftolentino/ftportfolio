@@ -13,9 +13,9 @@ export const homeObjMain = {
 };
 
 export const homeObjOne = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Project 1',
   headline: 'Web App Title',
   description:

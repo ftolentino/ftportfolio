@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Contact.css';
 
 import { Button } from '../Button/Button';
+import SendIcon from '@material-ui/icons/Send';
 import emailjs from 'emailjs-com';
 
 
@@ -29,21 +30,21 @@ const Contact = () => {
         <p className='contact-section-heading'>
           Interested in working together? Let's connect!
         </p>
-        <div className='input-areas'>
-          <form className='contact-form' onSubmit={sendEmail}>
-            <input className='contact-input' type="text" name="subject" placeholder= 'Subject' required />
-            <input className='contact-input' type="text" name="name" placeholder= 'Name' required />
-            <input
-              className='contact-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-              required
-            />
-            <textarea className='contact-input' name="message" placeholder='Message' required/>
-            <Button buttonStyle='btn--outline' onClick={handleClick}>Submit</Button>
-          </form>
-        </div>
+        <fieldset className='fieldset'> 
+            <form className='contact-form' onSubmit={sendEmail}>
+              <input className='contact-input' type="text" name="subject" placeholder= 'Subject' required />
+              <input className='contact-input' type="text" name="name" placeholder= 'Name' required />
+              <input
+                className='contact-input'
+                name='email'
+                type='email'
+                placeholder='Your Email'
+                required
+              />
+              <textarea className='contact-input' name="message" placeholder='Message' required/>
+              <Button buttonStyle='btn--outline' onClick={handleClick}><SendIcon /></Button>
+            </form>
+        </fieldset>
       </section>
     </div>
   );
