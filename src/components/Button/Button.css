@@ -55,7 +55,7 @@
 
 .btn--large:hover, .btn--medium:hover, .btn--mobile:hover {
     transition: all 0.3 ease-out;
-    background: #fff;
+    background: #f00946;
     color: #242424;
 }
 
@@ -108,4 +108,3 @@
     height: 100%;
     width: 100%;
 }
-

@@ -8,8 +8,8 @@ export const homeObjMain = {
 	description: 'I strive to build responsive and visually aesthetic web applications.',
 	buttonLabel: 'Contact Me',
 	imgStart: '',
-	img: 'images/FTheadshot1.png',
-	alt: 'Headshot'
+	img: '',
+	alt: ''
 };
 
 export const homeObjOne = {
@@ -66,4 +66,15 @@ export const homeObjFour = {
   imgStart: '',
   img: 'images/svg-8.svg',
   alt: 'Vault'
+};
+
+export const about = {
+  lightBg: false,
+	lightText: true,
+	lightTextDesc: true,
+  shadow: true,
+	headline: 'About',
+	imgStart: '',
+	img: 'images/FTheadshot1.png',
+	alt: 'Headshot'
 };

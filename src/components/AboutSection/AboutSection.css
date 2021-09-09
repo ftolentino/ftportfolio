@@ -25,6 +25,14 @@
 	flex-basis: 50%;
 }
 
+.about-heading {
+	margin-bottom: 24px;
+	font-size: 48px;
+	line-height: 1.1;
+	font-weight: 600;
+	color: #f00946;
+}
+
 .home__hero-text-wrapper {
 	max-width: 540px;
 	padding-top: 0;

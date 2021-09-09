@@ -15,7 +15,7 @@ const HeroSection = ({lightBg, topLine, lightText, lightTextDesc, headline, desc
                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
                 <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description}</p>
                 <Link to="/contact">
-                  <Button buttonSize='btn--wide' buttonColor='blue'>{buttonLabel}</Button>
+                  <Button buttonSize='btn--medium' buttonColor='blue'>{buttonLabel}</Button>
                 </Link>
               </div>
             </div>
