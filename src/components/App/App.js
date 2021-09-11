@@ -8,10 +8,12 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import HomePage from '../HomePage/HomePage';
 import Footer from '../Footer/Footer';
+import ScrollToTop from '../ScrollToTop';
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
