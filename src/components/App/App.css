@@ -2,10 +2,16 @@
 	font-family: 'Inter', sans-serif;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 .App {
 	overflow-x: hidden;
 }
-
+.homepage {
+	margin-top: 80px
+}
 .ul {
 	list-style-type: none;
 }

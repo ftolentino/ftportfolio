@@ -1,4 +1,6 @@
 .home__page-section {
+	display: flex;
+	justify-content: center;
 	color: #fff;
 	padding: 80px 0;
 	background-color: #1c2237;

@@ -72,7 +72,6 @@ export const about = {
   lightBg: false,
 	lightText: true,
 	lightTextDesc: true,
-  shadow: true,
 	headline: 'About',
 	imgStart: '',
 	img: 'images/FTheadshot1.png',

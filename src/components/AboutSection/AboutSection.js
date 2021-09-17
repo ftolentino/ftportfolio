@@ -1,14 +1,14 @@
 import React from 'react';
 import './AboutSection.css';
 
-const AboutSection = ({ headline, shadow, img, alt}) => {
+const AboutSection = ({ headline, img, alt }) => {
   return (
     <>
-      <div className='home__hero-section darkBg'>
-        <div className="container">
-          <div className="row home__hero-row">
-            <div className='col'>
-              <div className='home__hero-text-wrapper'>
+      <div className='about_hero-section'>
+        <div className="about-container">
+          <div className="about-row about__hero-row">
+            <div className='about-col'>
+              <div className='about__hero-text-wrapper'>
                 <h1 className='about-heading'>{headline}</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                   Fusce non libero laoreet, viverra metus in, dictum elit. 
@@ -22,9 +22,9 @@ const AboutSection = ({ headline, shadow, img, alt}) => {
                 </p>
               </div>
             </div>
-            <div className='col'>
-              <div className='home__hero-img-wrapper'>
-                <img src={img} alt={alt} className={shadow ? 'home__hero-img-shadow' : 'home__hero-img'} />
+            <div className='about-col'>
+              <div className='about__hero-img-wrapper'>
+                <img src={img} alt={alt} className='about__hero-img-shadow' />
               </div>
             </div>
           </div>
