@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroSection from '../HeroSection/HeroSection';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from '../HomePage/Data';
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from '../../utils/Data';
 
 
 const Projects = () => {

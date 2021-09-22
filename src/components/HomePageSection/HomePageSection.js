@@ -3,7 +3,7 @@ import './HomePageSection.css';
 import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
 
-const HomePageSection = ({lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, shadow, img, alt}) => {
+const HomePageSection = ({ lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel }) => {
   return (
     <>
       <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>

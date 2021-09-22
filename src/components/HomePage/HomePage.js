@@ -1,6 +1,6 @@
 import React from 'react';
 import HomePageSection from '../HomePageSection/HomePageSection';
-import {homeObjMain} from '../HomePage/Data';
+import {homeObjMain} from '../../utils/Data';
 
 const HomePage = () => {
   return (

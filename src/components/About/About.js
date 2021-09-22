@@ -1,10 +1,10 @@
 import React from 'react';
 import AboutSection from '../AboutSection/AboutSection';
-import {about} from '../HomePage/Data';
+import {about} from '../../utils/Data';
 
 const About = () => {
   return (
-    <div className="homepage">
+    <div>
       <AboutSection {...about} />
     </div>
   )

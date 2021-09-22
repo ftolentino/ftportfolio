@@ -11,7 +11,6 @@ import {
 import { MdFingerprint } from 'react-icons/md';
 
 const Footer = () => {
-
   return (
     <div className='footer-container'>
       <section className='social-media'>
