@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <div className="skills-container">
       <div className="title-container">
-        <DiCodeBadge className="icon-container" />
+        <DiCodeBadge />
         <p>Skills</p>
       </div>
       <div className="icon-container">

@@ -80,3 +80,16 @@
 .skill-nodejs {
   color: #3c873a;
 }
+
+@media screen and (max-width: 768px) {
+	.icon-container {
+    max-width: 100%;
+    margin: 0 10px;
+    padding: 0 10px;
+  }
+
+  .skill-icon {
+    display: flex;
+    justify-content: center;
+  }
+}
