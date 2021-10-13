@@ -72,7 +72,7 @@ export const about = {
   lightBg: false,
 	lightText: true,
 	lightTextDesc: true,
-	headline: 'About',
+	headline: 'About Me',
 	imgStart: '',
 	img: 'images/FTheadshot1.png',
 	alt: 'Headshot'

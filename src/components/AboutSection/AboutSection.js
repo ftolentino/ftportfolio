@@ -13,27 +13,27 @@ const AboutSection = ({ headline, img, alt }) => {
                 <p>Hello, I'm Filmer! I am a self-taught Frontend Developer. My career started out in games as an artist, 
                   making 3D environments for players to explore. After some time, I wanted to learn something different and
                   found interest in the idea of programming to train the other side of my brain. It began as a journey to develop my logical 
-                  problem solving skills, not just in coding, but in life itself. I find satisfaction in creativity and 
-                  constantly learning. One of the highlighted traits about me, is collaborating with others and cross pollinating ideas! 
-                  I love to find great team work, and be involved.
+                  problem solving skills, not just in coding, but in life itself. I find satisfaction in creativity,
+                  learning new things, and expanding my skill sets. One of the highlighted traits about me, is 
+                  collaborating with others and cross pollinating ideas! 
                 </p>
                 <br/>
                 <h3>Things of interest</h3>
-                <p>Three things that interest me are soccer, music, and video games. 
+                <p>Things that interest me are soccer, music, and video games. Each hobby involves a bit of creativity, problem solving skills, and team work.
                   <br/>
                   <br/>
-                  I've been following the English Premier League since 2001 and have been playing on teams since I was in the 2nd grade. 
-                  Every weekend I look forward to watching Premier League games in the mornings, often times multiple screens to watch multiple games. It 
-                  truly is The Beautiful Game to me, from team work, individual skill, to the chaos of the ball physics!
+                  I'm an avid soccer enthusiast. I've been following the English Premier League since 2001 and have been playing on teams since gradeschool. 
+                  Every weekend I look forward to watching soccer games in the mornings, often times on multiple screens to watch different teams at once. 
+                  It truly is "The Beautiful Game" to me, from the team work, to individual skill, and the chaos of the ball physics!
                   <br/>
                   <br/>
-                  I'm also a self-taught guitar/bass player and have been playing in bands with friends for 15 years. It's something 
-                  I love doing for fun, and as an expression. I like to write and sing songs, playing music is my church.
+                  I'm a self-taught guitar/bass player and have been playing in bands for 15 years. It's something that
+                  I enjoy doing for fun and as a way to creatively express myself. Making music with friends has been a great creative space
+                  to communicate through instruments and collectively write songs together.
                   <br/>
                   <br/>
-                  Gaming has also been a part of me since I was a kid, from Oregon Trail, consoles, to PC gaming. I love to absorb interactive 
-                  graphics and explore gameplay. I mostly like to play online with friends, much like how I enjoy playing on teams in soccer.
-                  Though I do of course enjoy single player campaign experiences as a gamer.
+                  Gaming has been a part of me since I was a kid, from Oregon Trail, to consoles, to PC gaming. I like to absorb interactive 
+                  graphics and explore gameplay. I typically play multiplayer games because I enjoy the team aspect of working together towards a shared goal.
                   <br/>
                   <br/>
                   Last but not least, I'm a dog dad of two Alaskan Klee Kai. They're my every day companions, my buddies.
