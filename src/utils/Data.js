@@ -5,7 +5,7 @@ export const homeObjMain = {
   shadow: true,
 	topLine: 'Frontend Developer',
 	headline: 'Filmer Tolentino',
-	description: 'I strive to build responsive and visually aesthetic web applications.',
+	description: 'I strive to build responsive and visually aesthetic user experiences as a web developer.',
 	buttonLabel: 'Contact Me',
 	imgStart: '',
 	img: '',

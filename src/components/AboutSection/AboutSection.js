@@ -14,8 +14,7 @@ const AboutSection = ({ headline, img, alt }) => {
                   making 3D environments for players to explore. After some time, I wanted to learn something different and
                   found interest in the idea of programming to train the other side of my brain. It began as a journey to develop my logical 
                   problem solving skills, not just in coding, but in life itself. I find satisfaction in creativity,
-                  learning new things, and expanding my skill sets. One of the highlighted traits about me, is 
-                  collaborating with others and cross pollinating ideas! 
+                  learning new things, and expanding my skill sets.
                 </p>
                 <br/>
                 <h3>Things of interest</h3>
