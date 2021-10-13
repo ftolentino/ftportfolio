@@ -21,6 +21,7 @@ h3 {
 	margin-left: -15px;
 	flex-wrap: wrap;
 	align-content: stretch;
+	align-items: flex-start;
 }
 
 .about-container {
