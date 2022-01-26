@@ -81,6 +81,14 @@
   color: #3c873a;
 }
 
+.skill-npm {
+  color: #cc3543
+}
+
+.skill-tailwind {
+  color: #03dbfc
+}
+
 @media screen and (max-width: 768px) {
 	.icon-container {
     max-width: 100%;

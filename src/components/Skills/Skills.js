@@ -7,7 +7,9 @@ import {
   SiSass,
   SiBootstrap,
   SiVisualstudiocode,
-  SiAdobephotoshop
+  SiAdobephotoshop,
+  SiNpm,
+  SiTailwindcss
 } from 'react-icons/si';
 import { DiNodejs, DiCodeBadge, DiCss3, DiHtml5 } from 'react-icons/di';
 
@@ -58,6 +60,14 @@ const Skills = () => {
         <div className="skill-icon">
           <DiNodejs className="skill-nodejs" />
           <p>NodeJS</p>
+        </div>
+        <div className="skill-icon">
+          <SiNpm className="skill-npm" />
+          <p>Npm</p>
+        </div>
+        <div className="skill-icon">
+          <SiTailwindcss className="skill-tailwind" />
+          <p>TailwindCSS</p>
         </div>
       </div>
     </div>
