@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../Navbar/Navbar.css";
+import "./NavBar.css";
 
 import { Link } from "react-router-dom";
 import { MdFingerprint } from "react-icons/md";

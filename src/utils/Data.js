@@ -16,28 +16,30 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Project 1',
-  headline: 'Web App Title',
+  topLine: 'C#/.NET MVC App',
+  headline: `Pierre's Sweet and Savory Treats`,
   description:
-    'Web App description goes here',
+    'This website allows Pierre to market his sweet and savory treats. The application has user authentication and a many to many relationship.',
   buttonLabel: 'Check it out',
   imgStart: '',
   img: 'images/svg-1.svg',
-  alt: 'Vault'
+  alt: 'Vault',
+  url: 'https://github.com/ftolentino/SweetSavory.Solution'
 };
 
 export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Project 2',
-  headline: 'Web App Title',
+  topLine: 'JS API project',
+  headline: 'Pokemon Card Randomizer',
   description:
-    'Web App description goes here',
+    'This app connects to the Pokémon TCG API and generates a random pokemon card, with a link for buying the card',
   buttonLabel: 'Check it out',
   imgStart: '',
   img: 'images/svg-5.svg',
-  alt: 'Vault'
+  alt: 'Vault',
+  url: 'https://github.com/ftolentino/pokemon-rando-api'
 };
 
 export const homeObjThree = {
