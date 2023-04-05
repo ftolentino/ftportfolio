@@ -21,9 +21,7 @@ const AboutSection = ({ headline, img, alt }) => {
                 <br/>
                 <h3>Things of interest</h3>
                   <br/>
-                  <br/>
                   I'm an avid soccer enthusiast. I love to follow the English Premier League and other European Football competitions. I have been playing on teams since gradeschool and currently play in a 6v6 small goal adult league.
-                  <br/>
                   <br/>
                   <p>
                   My main past time is playing around on guitar. I have a passion for creating music and playing in bands. 
