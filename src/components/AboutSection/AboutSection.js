@@ -15,21 +15,19 @@ const AboutSection = ({ headline, img, alt }) => {
                   <br /> 
                   My background comes from game development as a 3D artist, 
                   making 3D environments for players to explore. After some time, I wanted to learn something different and
-                  found interest in the idea of programming to train the other side of my brain. It began as a journey to develop logical 
-                  problem solving skills, not just in coding, but in life itself as a way of thinking. I find satisfaction in creativity,
-                  learning new things, and expanding my skill sets remaining technology forward thinking. I thrive best working with others, collaborating to solve problems and building something great.
+                  found interest in the idea of programming to train the other side of my brain. I find satisfaction in creativity,
+                  learning new things, and expanding my skill sets remaining technology forward. 
                 </p>
                 <br/>
                 <h3>Things of interest</h3>
-                <p>Things that interest me are soccer, music, and video games. Each hobby involves a bit of creativity, problem solving skills, and team work.
                   <br/>
                   <br/>
                   I'm an avid soccer enthusiast. I love to follow the English Premier League and other European Football competitions. I have been playing on teams since gradeschool and currently play in a 6v6 small goal adult league.
                   <br/>
                   <br/>
-                  I enjoy writing songs on guitar and enjoy playing with friends to make music together. It's something that
-                  I enjoy doing for fun and as a way to creatively express myself.
-                </p>
+                  <p>
+                  My main past time is playing around on guitar. I have a passion for creating music and playing in bands. 
+                  </p>
               </div>
             </div>
             <div className='about-col'>
