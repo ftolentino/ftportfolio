@@ -21,7 +21,7 @@ const Footer = () => {
               FT
             </Link>
           </div>
-          <small className='website-rights'>FILMER TOLENTINO © 2021</small>
+          <small className='website-rights'>FILMER TOLENTINO © 2023</small>
           <div className='social-icons'>
             <a
               className='social-icon-link'
