@@ -10,13 +10,10 @@ const AboutSection = ({ headline, img, alt }) => {
             <div className='about-col'>
               <div className='about__hero-text-wrapper'>
                 <h1 className='about-heading'>{headline}</h1>
-                <p>Hello, I'm Filmer! I started my journey into programming going the self-taught route, learning mostly Frontend Web Development. I then decided to dive into a 6 month full time Bootcamp where I established a solid foundation in Full Stack Mobile and Web Development.
+                <p>I am a Full Stack Software Developer, with a focus on building user interfaces with React. I am currently proficient in Javascript and C# as my main programming langauges.
                   <br /> 
                   <br /> 
-                  My background comes from game development as a 3D artist, 
-                  making 3D environments for players to explore. After some time, I wanted to learn something different and
-                  found interest in the idea of programming to train the other side of my brain. I find satisfaction in creativity,
-                  learning new things, and expanding my skill sets remaining technology forward. 
+                  My background comes from game development as a 3D Environment Artist. After some time, I wanted to learn something different and found interest in the idea of programming to automate and build applications. I find satisfaction in creativity, learning new things, and expanding my skill sets remaining technology forward.
                 </p>
                 <br/>
                 <h3>Things of interest</h3>
@@ -24,7 +21,7 @@ const AboutSection = ({ headline, img, alt }) => {
                   I'm an avid soccer enthusiast. I love to follow the English Premier League and other European Football competitions. I have been playing on teams since gradeschool and currently play in a 6v6 small goal adult league.
                   <br/>
                   <p>
-                  My main past time is playing around on guitar. I have a passion for creating music and playing in bands. 
+                  My main past time is playing guitar. I have a passion for creating music and playing in bands. 
                   </p>
               </div>
             </div>
